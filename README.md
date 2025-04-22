@@ -16,8 +16,13 @@ git clone https://github.com/shahishnujr/SmartBin_WasteClassification.git
 cd SmartBin_WasteClassification
 cd new_ml_project
 ```
+### 2. Download Model Weights
 
-### 2. Run the App
+**Note:**  
+The model files `deep_custom_waste_cnn.pt`  download these files using [Google Colab]
+yolov8n.pt from github
+
+### 3. Run the App
 ```
 streamlit run app.py
 ```
