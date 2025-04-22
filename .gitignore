@@ -1,0 +1,14 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+venv/
+yolov5/
+crops/
+temp_*.jpg
+
+# Model weights (optional, if you don't want to push large files)
+deep_custom_waste_cnn.pt
+yolov5su.pt
+yolov8n.pt
+# Streamlit config (optional)
+.streamlit/
